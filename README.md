@@ -1,30 +1,38 @@
 # Pig Game
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+Pig Game is a simple dice game built with JavaScript, HTML, and CSS. It's a turn-based two-player game where the players take turns rolling a dice. The goal is to reach a certain score first, typically 100 points.
 
-## Description
 
-Pig Game is a simple dice rolling game where two players take turns rolling a dice and accumulating points. The goal of the game is to reach a specific number of points before the opponent.
+## Features
 
-## Installation
+- Two players can play the game.
+- Players can roll the dice as many times as they want during their turn.
+- The current player's score is accumulated as long as they keep rolling and don't roll a 1.
+- Players can choose to hold their current score, which adds it to their total score.
+- If a player rolls a 1, their current score is lost, and it becomes the other player's turn.
+- The first player to reach the specified winning score wins the game.
 
-To play the Pig Game, follow these steps:
+## Technologies Used
 
-1. Clone the repository to your local machine:
+- HTML
+- CSS
+- JavaScript
+
+## Getting Started
+
+To get started with the Pig Game project, follow these steps:
+
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/Somayeh-Kargosha/Pig-game.git
    
-3. Open the index.html file in your web browser.
+ 2. open the project folder.
+ 3. Open the index.html file in your web browser.
+ 4. Start playing the Pig Game! 
 
-## How to play
 
-1. Open the game in your web browser.
-2. Enter the names of the two players.
-3. Click the "New Game" button to start a new game.
-4. Players take turns rolling the dice by clicking the "Roll Dice" button.
-5. Each player accumulates points based on the number rolled on the dice.
-6. If a player rolls a 1, they lose their current points and it becomes the other player's turn.
-7. Players can choose to "Hold" their current points, which adds them to their total score.
-8. The first player to reach the specified number of points (default: 100) wins the game.
-9. Click the "New Game" button to start a new game at any time.
+ ## Contributing
+ 
+ Contributions to the Pig Game project are welcome. If you find any issues or would like to suggest enhancements, 
+ please submit a pull request or open an issue on the GitHub repository.
